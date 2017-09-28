@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 import java.util.UUID;
+import org.json.JSONException;
 
 import org.springframework.web.util.UriComponentsBuilder;
 public class AuthHelper {

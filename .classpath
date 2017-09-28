@@ -33,8 +33,25 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/girish/Desktop/internship/json-20090211.jar"/>
-	<classpathentry kind="lib" path="C:/Users/girish/Desktop/internship/json-20170516.jar"/>
-	<classpathentry kind="lib" path="C:/Users/girish/Desktop/internship/salesforce apis/org.apache.commons.httpclient.jar"/>
+	<classpathentry kind="lib" path="C:/Users/girish/Desktop/internship/salesforce apis/org.apache.commons.httpclient.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/girish/Desktop/internship/java-json.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/girish/Downloads/json_simple.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/girish/Downloads/json-simple-1.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

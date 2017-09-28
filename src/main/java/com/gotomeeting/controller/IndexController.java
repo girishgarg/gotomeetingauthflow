@@ -1,4 +1,5 @@
 package com.gotomeeting.controller;
+import org.json.JSONException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.UUID;
@@ -10,7 +11,7 @@ import com.gotomeeting.auth.AuthHelper;
 public class IndexController {
 
 	  @RequestMapping("/index")
-	  public String index(Model model, HttpServletRequest request) {
+	  public String index(Model model, HttpServletRequest request)   {
 		  UUID state = UUID.randomUUID();
 		 // UUID nonce = UUID.randomUUID();
 
